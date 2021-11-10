@@ -1,3 +1,30 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.banner-container{
+    background-color:rgb(164, 146, 180);
+}
+
+.banner-column{
+    background-color: rgb(121,82,179);
+}
+
+.navbar-container{
+    background-color: rgb(23, 5, 39);
+}
+
+.about-container{
+    background-color: rgb(121,82,179);
+}
+
+.education-container{
+    background-color: rgb(164, 146, 180);
+}
+
+.circle{
+    background-color: rgb(220,53,69);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
