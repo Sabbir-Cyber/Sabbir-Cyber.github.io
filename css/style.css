@@ -3,7 +3,7 @@ body{
 }
 
 .banner-container{
-    background-color:rgb(164, 146, 180);
+    background-color:rgb(212, 183, 238);
 }
 
 .banner-column{
@@ -12,6 +12,9 @@ body{
 
 .navbar-container{
     background-color: rgb(23, 5, 39);
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 .about-container{
@@ -19,7 +22,7 @@ body{
 }
 
 .education-container{
-    background-color: rgb(164, 146, 180);
+    background-color:rgb(212, 183, 238);
 }
 
 .circle{
@@ -27,4 +30,55 @@ body{
     height: 150px;
     width: 150px;
     border-radius: 50%;
+}
+
+.project-container{
+    background-color: rgb(121,82,179);
+}
+
+.portfolio-container{
+    background-color:rgb(212, 183, 238);
+}
+
+.contact-container{
+    background-color: rgb(121,82,179);
+}
+
+.inner-form{
+    background-color: rgb(187, 115, 255);
+}
+
+.btn-back{
+    background-color: rgb(40,167,69);
+}
+
+.btn-back:hover{
+    color: black!important;
+    background-color: yellowgreen;
+}
+
+.footer-container{
+    background-color: rgb(212, 183, 238);
+}
+
+.circle-logos{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgb(44, 44, 44);
+    font-size: 40px;
+    text-align: center;
+    color:rgb(212, 183, 238)
+}
+
+.circle-logos:hover{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    color:rgb(44, 44, 44)
 }
